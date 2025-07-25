@@ -6,7 +6,7 @@ int main()
 {
     int arr[] = {0, 3, 8, 9, 5, 2};
     int n = 6;
-    int st = 0, end = n - 1;
+    int st = 1, end = n - 2; // cause first and last can never be peak
 
     while (st <= end)
     {
